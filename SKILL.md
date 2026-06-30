@@ -32,13 +32,13 @@ Execute the following phase gates sequentially:
 * **Agent:** `subagents/phase1_logical_sequencer.md`
 * **Objective:** Implement a Map-Reduce Pattern. Pass 1: Give agents a lightweight AST, directory tree, and package manifests to map global architecture. Pass 2: Dispatch 4,000-line payloads for deep granular analysis. Before writing course HTML, deeply understand the codebase. Read all the key files and dependencies to define the definitive structural summary paragraphs for the Interactive Codebase Explorer. Explicitly define exact system responsibilities and technical dependencies for every file node.
 
-##### Phase 2: Mechanical Translations
-* **Agent:** `subagents/phase2_mechanical_translator.md`
-* **Objective:** Generate full, untruncated code syntax explanations alongside meticulous 1:1 line-by-line execution logic tracing. Hand-waving or skipping files is a hard failure.
+##### Phase 2.5: The Briefing & Pre-Extraction Layer (Token Saver)
+* **Agent:** Lead Architect (Self-Executed)
+* **Objective:** Before executing deep translations, write a dedicated Markdown "Module Brief" for each module identified in Phase 1. Pre-extract the exact, untruncated code snippets directly from the source files and embed them in the brief. Explicitly define the required teaching arc, edge-cases to highlight, and interactive widgets to build.
 
-##### Phase 3: The Testing & Reliability Layer
-* **Agent:** `subagents/phase3_reliability_evaluator.md`
-* **Objective:** Parse all unit, integration, and end-to-end test files to expose what is being verified and how mock frameworks are structured. Generate hyper-dense assessment suites with a minimum of 5 edge-case-driven technical FAQs and multiple scenario-based debugging questions per module.
+##### Phase 3: Translation & Reliability Auditing (Parallel Dispatch)
+* **Agents:** `subagents/phase2_mechanical_translator.md` & `subagents/phase3_reliability_evaluator.md`
+* **Objective:** Dispatch the Phase 2.5 Module Briefs to the Translator and Evaluator subagents in parallel batches. Because the code is pre-extracted in the brief, worker agents do not need to read the entire codebase. They must generate the 1:1 line-by-line execution logic tracing and hyper-dense assessment suites strictly based on the constraints of the brief.
 
 ##### Phase 4: UI Orchestration & Compilation
 * **Agent:** `subagents/phase4_ui_orchestrator.md`

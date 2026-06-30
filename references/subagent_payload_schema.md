@@ -13,7 +13,13 @@ To prevent prompt degradation, context drift, and tool overtriggering, the Lead 
         <assigned_phase>Phase 2: Mechanical Translator</assigned_phase>
         <!-- Enforces the strict context boundary to prevent LLM laziness -->
         <chunk_boundary_limit>4000</chunk_boundary_limit>
+        <is_pre_extracted_brief>true</is_pre_extracted_brief>
     </task_metadata>
+
+    <module_brief>
+        <teaching_arc>Focus on the race conditions during memory allocation.</teaching_arc>
+        <required_widgets>interactive-state-machine</required_widgets>
+    </module_brief>
     
     <code_context>
         <!-- Line-number bounds for untruncated code payloads. TRUNCATION IS A HARD FAILURE. -->

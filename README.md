@@ -60,4 +60,5 @@ The UI Orchestrator generates a bespoke frontend designed for advanced code comp
 
 ### Credits
 
-Concept, architecture, and original constraints designed and inspired by Daniel Olusheki (https://github.com/olusheki).
+Concept and architecture by Daniel Olusheki (https://github.com/olusheki).
+Inspiration and Code Assets from https://github.com/zarazhangrui/codebase-to-course 
